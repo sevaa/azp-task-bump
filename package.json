@@ -1,0 +1,41 @@
+{
+    "name": "azp-task-bump",
+    "version": "0.51.0",
+    "description": "Command line utility that increases the patch number of Azure Pipelines task manifests",
+    "license": "MIT",
+    "author": {
+        "email": "sevaa@sprynet.com",
+        "name": "Seva Alekseyev"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/sevaa/azp-task-bump.git"
+    },
+    "keywords": [
+        "azure devops",
+        "azure pipelines",
+        "tfs extension",
+        "azure devops extension",
+        "vsts extension",
+        "tfs contribution",
+        "azure devops contribution",
+        "vsts contributon",
+        "azp",
+        "azp task bump",
+        "vsts",
+        "vsts-bump",
+        "vsts bump",
+        "vsts-task",
+        "vsts task",
+        "vsts task bump",
+        "vsts-task-bump",
+        "tfs",
+        "team foundation server"
+    ],
+    "homepage": "https://github.com/sevaa/azp-task-bump",
+    "dependencies": {
+        "json-in-place": "^1.0.1"
+    },
+    "bin": {"azp-task-bump": "index.js"},
+    "engines": {"node": ">=6"}
+}
